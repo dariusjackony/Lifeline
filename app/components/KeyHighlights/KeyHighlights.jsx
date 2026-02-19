@@ -25,6 +25,7 @@ const KeyHiglights = () => {
 
         <div>
            <div>
+            {/* map all */}
             {highlights.map((item, index) =>{
                 const Icon = item.icon;
                 return(
